@@ -4,6 +4,9 @@ spring:
     username: ahmadou
     password: 17ndw8SvPzH1flAX3CB6NAyh4DGwOkZ3
     driver-class-name: org.postgresql.Driver
+    hikari:
+      idle-timeout: 6000
+
   jpa:
     database: POSTGRESQL
     hibernate:
